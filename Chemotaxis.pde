@@ -47,7 +47,6 @@ class Ribbon {
 }
 
 void mouseClicked() {
-  clear();
   background(0);
   backColor = 0;
   for (int i=0; i<streamers.length; i++) {
