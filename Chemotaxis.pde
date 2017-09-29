@@ -22,7 +22,6 @@ void draw()
     if (get(mouseX, mouseY) == streamers[j].ribbonColor) {
       background(streamers[j].ribbonColor+1);
       backColor = color(streamers[j].ribbonColor+1);
-      delay(500);
       streamers[j].Xpos = mouseX;
       streamers[j].Ypos = mouseY;
       j = streamers.length;
